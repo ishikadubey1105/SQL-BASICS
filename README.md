@@ -1,10 +1,14 @@
-# 📊 SQL Basics - Complete MySQL Assignment
+# 📊 SQL Basics - Complete MySQL Assignments
 
 [![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 [![SQL](https://img.shields.io/badge/SQL-Queries-orange?style=for-the-badge&logo=postgresql)](https://www.postgresql.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-> A comprehensive collection of SQL queries demonstrating fundamental database operations including SELECT statements, WHERE clauses, filtering, sorting, and advanced query techniques.
+> A comprehensive collection of SQL queries demonstrating fundamental and advanced database operations including SELECT statements, WHERE clauses, filtering, sorting, JOINs, grouping, and aggregation functions.
+
+**📚 Two Complete Assignments:**
+- **Assignment 1:** Database Basics, SELECT, WHERE, Filtering & Sorting (25 queries)
+- **Assignment 2:** Joins, Grouping & Aggregations (20 queries)
 
 ---
 
@@ -23,7 +27,9 @@
 
 ## 🎯 Overview
 
-This repository contains a complete MySQL assignment covering **25 SQL queries** that demonstrate proficiency in:
+This repository contains **two complete MySQL assignments** covering **45 SQL queries** that demonstrate proficiency in:
+
+### **Assignment 1: Database Basics (25 Queries)**
 - Basic SELECT operations
 - WHERE clause and logical conditions
 - Pattern matching with LIKE
@@ -31,9 +37,16 @@ This repository contains a complete MySQL assignment covering **25 SQL queries**
 - Advanced filtering techniques
 - Query optimization with LIMIT and OFFSET
 
-**Database:** `store_db`  
-**Table:** `products`  
-**Total Queries:** 25
+### **Assignment 2: Joins & Aggregations (20 Queries)**
+- INNER JOIN, LEFT JOIN operations
+- Multiple table relationships
+- GROUP BY and aggregate functions (COUNT, SUM, AVG, MAX)
+- HAVING clause for filtered aggregations
+- Complex multi-table queries
+- Subqueries and derived tables
+
+**Total Queries:** 45  
+**Databases:** `store_db`, `store_assignment`
 
 ---
 
@@ -68,7 +81,7 @@ This repository contains a complete MySQL assignment covering **25 SQL queries**
 
 ## 📚 Topics Covered
 
-### ✅ Core SQL Concepts
+### ✅ Assignment 1: Core SQL Concepts
 
 - **SELECT Statements** - Retrieving data from tables
 - **WHERE Clause** - Filtering records based on conditions
@@ -79,6 +92,18 @@ This repository contains a complete MySQL assignment covering **25 SQL queries**
 - **Limiting Results** - LIMIT and OFFSET
 - **String Functions** - LENGTH()
 - **Arithmetic Operations** - Modulo (%)
+
+### ✅ Assignment 2: Advanced SQL Concepts
+
+- **INNER JOIN** - Combining rows from multiple tables
+- **LEFT JOIN** - Including unmatched rows from left table
+- **Multi-table Joins** - Joining 3+ tables
+- **Aggregate Functions** - COUNT(), SUM(), AVG(), MAX(), MIN()
+- **GROUP BY** - Grouping rows for aggregation
+- **HAVING** - Filtering grouped results
+- **Subqueries** - Nested SELECT statements
+- **DISTINCT** - Removing duplicate rows
+- **COALESCE** - Handling NULL values
 
 ---
 
@@ -206,7 +231,7 @@ ORDER BY product_name ASC;
 
 ## 🎓 Key Learnings
 
-Through this assignment, I have demonstrated proficiency in:
+Through these assignments, I have demonstrated proficiency in:
 
 ✅ Writing clean, well-commented SQL queries  
 ✅ Understanding database filtering and sorting mechanisms  
@@ -214,6 +239,11 @@ Through this assignment, I have demonstrated proficiency in:
 ✅ Implementing pattern matching for text searches  
 ✅ Optimizing queries with LIMIT and OFFSET  
 ✅ Applying string and mathematical functions  
+✅ Performing INNER and LEFT JOINs across multiple tables  
+✅ Using aggregate functions (COUNT, SUM, AVG, MAX, MIN)  
+✅ Grouping data with GROUP BY and filtering with HAVING  
+✅ Writing subqueries and derived tables  
+✅ Handling NULL values with COALESCE  
 ✅ Following SQL best practices and naming conventions  
 
 ---
@@ -223,9 +253,10 @@ Through this assignment, I have demonstrated proficiency in:
 ```
 SQL-BASICS/
 │
-├── README.md                           # This file
-├── IshikaDubey_MySQL_Assignment.sql    # Complete SQL assignment (25 queries)
-└── LICENSE                             # MIT License
+├── README.md                                    # This file
+├── IshikaDubey_MySQL_Assignment.sql             # Assignment 1: Basics (25 queries)
+├── IshikaDubey_MySQL_Joins_Groupby_Assignment.sql  # Assignment 2: Joins & Aggregations (20 queries)
+└── LICENSE                                      # MIT License
 ```
 
 ---
@@ -240,11 +271,13 @@ SQL-BASICS/
 
 ## 📈 Future Enhancements
 
-- [ ] Add JOIN operations with multiple tables
-- [ ] Implement aggregate functions (COUNT, SUM, AVG)
+- [x] ~~Add JOIN operations with multiple tables~~ ✅ Completed in Assignment 2
+- [x] ~~Implement aggregate functions (COUNT, SUM, AVG)~~ ✅ Completed in Assignment 2
 - [ ] Create stored procedures and functions
 - [ ] Add database normalization examples
 - [ ] Include transaction management queries
+- [ ] Implement views and indexes
+- [ ] Add window functions (ROW_NUMBER, RANK, PARTITION BY)
 
 ---
 
