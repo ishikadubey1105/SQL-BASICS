@@ -224,7 +224,7 @@ Through this assignment, I have demonstrated proficiency in:
 SQL-BASICS/
 │
 ├── README.md                           # This file
-├── Ishika Dubey sql assignment.sql     # Complete SQL assignment (25 queries)
+├── IshikaDubey_MySQL_Assignment.sql    # Complete SQL assignment (25 queries)
 └── LICENSE                             # MIT License
 ```
 
