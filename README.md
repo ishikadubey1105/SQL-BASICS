@@ -1,18 +1,15 @@
 # 📊 SQL Basics - Complete MySQL Assignments
 
-[![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
-[![SQL](https://img.shields.io/badge/SQL-Queries-orange?style=for-the-badge&logo=postgresql)](https://www.postgresql.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 > A comprehensive collection of SQL queries demonstrating fundamental and advanced database operations including SELECT statements, WHERE clauses, filtering, sorting, JOINs, grouping, and aggregation functions.
 
-**📚 Two Complete Assignments:**
+** Two Complete Assignments:**
 - **Assignment 1:** Database Basics, SELECT, WHERE, Filtering & Sorting (25 queries)
 - **Assignment 2:** Joins, Grouping & Aggregations (20 queries)
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Database Schema](#database-schema)
